@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="598.0"
+            prefWidth="872.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="co.edu.uniquindio.poo.centroveterinariofx.viewController.VentanaMainController">
+    <children>
+        <SplitPane dividerPositions="0.5" layoutY="-6.0" orientation="VERTICAL" prefHeight="607.0" prefWidth="872.0">
+            <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0"
+                            style="-fx-background-color: white;">
+                    <children>
+                        <Label layoutX="258.0" layoutY="14.0" prefHeight="84.0" prefWidth="443.0"
+                               text="Centro Veterinario" textFill="#ff8400">
+                            <font>
+                                <Font name="Bell MT" size="50.0"/>
+                            </font>
+                        </Label>
+                    </children>
+                </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0"
+                            style="-fx-background-color: orange;">
+                    <children>
+                        <Button fx:id="btnRegistrar" layoutX="74.0" layoutY="101.0" mnemonicParsing="false"
+                                onAction="#abrirVentanaGestion" prefHeight="114.0" prefWidth="236.0"
+                                style="-fx-background-color: white;" text="Gestión" textFill="#ff7000">
+                            <font>
+                                <Font name="Bell MT" size="45.0"/>
+                            </font>
+                        </Button>
+                        <Button fx:id="btnAgendarCita" layoutX="574.0" layoutY="98.0" mnemonicParsing="false"
+                                onAction="#abrirVentanaCitas" prefHeight="121.0" prefWidth="236.0"
+                                style="-fx-background-color: white;" text="Agendar Cita" textAlignment="JUSTIFY"
+                                textFill="#ff7300">
+                            <font>
+                                <Font name="Bell MT" size="34.0"/>
+                            </font>
+                        </Button>
+                    </children>
+                </AnchorPane>
+            </items>
+        </SplitPane>
+    </children>
+</AnchorPane>
