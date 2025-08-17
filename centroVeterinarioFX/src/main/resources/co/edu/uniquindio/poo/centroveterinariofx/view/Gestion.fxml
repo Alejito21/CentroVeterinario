@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="co.edu.uniquindio.poo.centroveterinariofx.viewController.VentanaGestionController" prefHeight="300.0" prefWidth="400.0">
+    <children>
+        <Label layoutX="100.0" layoutY="20.0" text="Gestión" textFill="#ff8400">
+            <font>
+                <Font name="Bell MT" size="36.0" />
+            </font>
+        </Label>
+        <Button fx:id="btnMascotas" layoutX="120.0" layoutY="80.0" mnemonicParsing="false" onAction="#abrirMascotas" prefWidth="160.0" text="Mascotas" />
+        <Button fx:id="btnPropietarios" layoutX="120.0" layoutY="130.0" mnemonicParsing="false" onAction="#abrirPropietarios" prefWidth="160.0" text="Propietarios" />
+        <Button fx:id="btnVeterinarios" layoutX="120.0" layoutY="180.0" mnemonicParsing="false" onAction="#abrirVeterinarios" prefWidth="160.0" text="Veterinarios" />
+    </children>
+</AnchorPane>
